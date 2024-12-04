@@ -1,0 +1,55 @@
+:root {
+    --gd-primary: #00FF00;
+    --gd-black: #000000;
+    --gd-white: #FFFFFF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--gd-black);
+    color: var(--gd-white);
+}
+
+.announcement {
+    background: var(--gd-primary);
+    color: var(--gd-black);
+    text-align: center;
+    transition: all .4s ease;
+    width: 100%;
+}
+
+.announcement:hover {
+    background: var(--gd-black);
+    color: var(--gd-primary);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.inner {
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+
+.menu li a {
+    color: var(--gd-white);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* More CSS rules for header, menu, hero section, products, footer, cookie consent, etc. */
+
+/* Media queries for responsive design */
+@media (max-width: 899.999px) {
+    /* Mobile styles */
+}
+
+@media (min-width: 900px) {
+    /* Desktop styles */
+}
